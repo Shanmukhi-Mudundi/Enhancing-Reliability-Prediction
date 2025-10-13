@@ -5,7 +5,7 @@ import requests
 import re
 import json
 
-TOGETHER_API_KEY = "0f204cdb020f5899698bbb8c8d1b12a74dc9ee54103d0272440e182e07037ea3"
+TOGETHER_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 TOGETHER_MODEL = "mistralai/Mixtral-8x7B-Instruct-v0.1"
 TOGETHER_API_URL = "https://api.together.xyz/v1/chat/completions"
 
