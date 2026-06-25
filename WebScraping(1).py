@@ -15,7 +15,7 @@ drive.get("https://www.amazon.in/")
 time.sleep(2)
 
 search = WebDriverWait(drive, 10).until(EC.presence_of_element_located((By.XPATH, "//input[@placeholder='Search Amazon.in']")))
-search.send_keys("chair")
+search.send_keys("Enter whatever product you want")
 search.send_keys(Keys.RETURN)
 time.sleep(2)
 
