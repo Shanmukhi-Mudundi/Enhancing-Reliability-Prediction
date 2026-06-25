@@ -5,9 +5,9 @@ import requests
 import re
 import json
 
-TOGETHER_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-TOGETHER_MODEL = "mistralai/Mixtral-8x7B-Instruct-v0.1"
-TOGETHER_API_URL = "https://api.together.xyz/v1/chat/completions"
+TOGETHER_API_KEY = "Enter your api key"
+TOGETHER_MODEL = "mistralai/Mixtral-8x7B-Instruct-v0.1"   # Use the Model of which you take your API Key
+TOGETHER_API_URL = "https://api.together.xyz/v1/chat/completions"  # Use the URL of the AI which you use
 
 nlp = spacy.load("en_core_web_sm")
 
