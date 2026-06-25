@@ -1,4 +1,7 @@
 # Enhancing Reliability in Predicting Amazon Reviews
+[![License](https://img.shields.io/badge/License-Academic-lightgrey)]()
+[![Python](https://img.shields.io/badge/Python-3.12-blue)]()
+[![MLOps](https://img.shields.io/badge/Pipeline-MLOps-green)]()
 
 > An end-to-end pipeline that scrapes Amazon reviews, scores them with an LLM, and trains a classifier to flag unreliable or fake reviews.
 
